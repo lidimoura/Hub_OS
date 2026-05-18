@@ -1,0 +1,23 @@
+{
+  "name": "Skill Conhecimento (Drive/Data)",
+  "description": "Extrai, sintetiza e organiza arquivos do Google Drive e Docs de forma segura.",
+  "purpose": "Centralizar e otimizar o acesso ao conhecimento, transformando documentos em insights acionáveis e facilmente recuperáveis.",
+  "inputs": [
+    "IDs de arquivos/pastas do Google Drive",
+    "Termos de busca",
+    "Contexto para síntese (ex: 'resumir sobre X')",
+    "Critérios de organização"
+  ],
+  "outputs": [
+    "Conteúdo extraído de documentos",
+    "Resumos e sínteses de informações",
+    "Estrutura de pastas organizada",
+    "Links para arquivos relevantes"
+  ],
+  "tools_or_apis": [
+    "Google Drive API",
+    "Google Docs API",
+    "Ferramentas de processamento de linguagem natural (NLP)"
+  ],
+  "rbac_context": "Acesso restrito a arquivos e pastas do Google Drive e Docs designados para a Skill. Respeita permissões de acesso do Drive. Não acessa dados de CRM ou informações sensíveis de clientes."
+}

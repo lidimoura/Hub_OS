@@ -1,0 +1,23 @@
+{
+  "name": "Skill CRM & Vendas",
+  "description": "Atualiza e interage com os leads no Provadágua CRM e Kommo.",
+  "purpose": "Otimizar o funil de vendas, gerenciar o relacionamento com o cliente e automatizar tarefas repetitivas no CRM.",
+  "inputs": [
+    "Dados de leads (nome, contato, empresa)",
+    "Status do lead/deal (novo, qualificado, em negociação, fechado)",
+    "Informações de interação (notas de reunião, e-mails)",
+    "Solicitações de automação (envio de e-mail, atualização de status)"
+  ],
+  "outputs": [
+    "Leads/deals atualizados no CRM",
+    "Relatórios de status de vendas",
+    "Interações registradas",
+    "Disparo de automações (e-mails, notificações)"
+  ],
+  "tools_or_apis": [
+    "Provadágua CRM API",
+    "Kommo CRM API",
+    "APIs de e-mail/mensageria (ex: SendGrid, Twilio)"
+  ],
+  "rbac_context": "Acesso direto e restrito aos dados de leads e clientes no Provadágua CRM e Kommo. Não acessa repositórios de código ou arquivos do Google Drive não relacionados ao CRM."
+}

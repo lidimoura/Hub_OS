@@ -1,0 +1,22 @@
+{
+  "name": "Skill Engenharia (Repo/Docs)",
+  "description": "Responsável por interagir com repositórios de código (ex: Vercel, GitHub), atualizar documentações técnicas (DEVLOG, README) e monitorar a saúde do código e da infraestrutura.",
+  "purpose": "Manter a integridade e a documentação técnica dos projetos, garantindo a saúde do código e a rastreabilidade do desenvolvimento.",
+  "inputs": [
+    "URL do repositório (GitHub, Vercel)",
+    "Caminho do arquivo (DEVLOG.md, README.md)",
+    "Conteúdo a ser adicionado/atualizado",
+    "Status de saúde do código (relatórios de CI/CD)"
+  ],
+  "outputs": [
+    "Status de atualização do repositório",
+    "Conteúdo de DEVLOG/README atualizado",
+    "Relatórios de saúde do código"
+  ],
+  "tools_or_apis": [
+    "GitHub API",
+    "Vercel API",
+    "Ferramentas de CI/CD (ex: GitHub Actions)"
+  ],
+  "rbac_context": "Acesso restrito a repositórios e arquivos de documentação técnica. Não acessa dados de CRM ou informações sensíveis de clientes."
+}

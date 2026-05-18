@@ -1,0 +1,23 @@
+{
+  "name": "Skill Prompt Lab",
+  "description": "A capacidade de empacotar o conhecimento dessas IAs em prompts modulares para uso dos clientes no SaaS.",
+  "purpose": "Permitir que os clientes do SaaS acessem e utilizem a inteligência encapsulada das Skills do Hub OS através de prompts modulares e configuráveis, democratizando o acesso à IA.",
+  "inputs": [
+    "Nome da Skill a ser empacotada (ex: Storytelling_Metricas)",
+    "Parâmetros de entrada da Skill (ex: métricas, contexto, público-alvo)",
+    "Formato de saída desejado (ex: texto, JSON, Markdown)",
+    "Contexto de uso do cliente (para personalização do prompt)"
+  ],
+  "outputs": [
+    "Prompt modular gerado (System Prompt ou User Prompt)",
+    "Documentação de uso do prompt (ex: SKILL.md simplificado)",
+    "Exemplos de aplicação do prompt",
+    "Configuração JSON para integração no Prompt Lab do SaaS"
+  ],
+  "tools_or_apis": [
+    "API do Prompt Lab (do SaaS)",
+    "APIs das Skills do Hub OS (para extrair lógica e parâmetros)",
+    "Ferramentas de validação e otimização de prompt"
+  ],
+  "rbac_context": "Acesso aos prompts e lógicas das Skills do Hub OS para empacotamento. Não acessa dados sensíveis de clientes diretamente, apenas a estrutura e o conhecimento das Skills para a criação de prompts. Respeita as permissões de acesso do usuário no SaaS."
+}

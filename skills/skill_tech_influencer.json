@@ -1,0 +1,23 @@
+{
+  "name": "Skill Tech Influencer (Social)",
+  "description": "Analisa meus repositórios/vitórias técnicas e rascunha posts/threads para o meu Instagram pessoal narrando a jornada de \"Reflorestar o Digital\".",
+  "purpose": "Construir autoridade e engajamento nas redes sociais, divulgando o progresso técnico e a visão do Encontro d\"Água Hub, conectando a jornada pessoal à inovação tecnológica.",
+  "inputs": [
+    "Dados de repositórios (commits, releases, DEVLOGs)",
+    "Vitórias técnicas (novas funcionalidades, otimizações)",
+    "Eventos da jornada \"Reflorestar o Digital\"",
+    "Diretrizes de tom de voz/estilo para posts",
+    "Contexto pessoal (para posts que conectam o lado humano)"
+  ],
+  "outputs": [
+    "Rascunhos de posts/threads para Instagram (texto e sugestões de imagem/vídeo)",
+    "Sugestões de hashtags relevantes",
+    "Análise de engajamento (para futuras iterações)"
+  ],
+  "tools_or_apis": [
+    "GitHub API",
+    "Instagram API (para postagem, se disponível e autorizado)",
+    "Ferramentas de análise de texto/geração de conteúdo"
+  ],
+  "rbac_context": "Acesso a dados públicos de repositórios e informações sobre vitórias técnicas. Não acessa dados sensíveis de CRM ou Drive. A postagem final requer aprovação humana."
+}
