@@ -1,0 +1,9 @@
+{
+  "name": "Skill Onboarding Express",
+  "description": "Acelera a prospecção e onboarding do Link d'Água entregando pacotes de prospecção completos em tempo recorde.",
+  "purpose": "Transformar novos leads em propostas irrecusáveis para o Link d'Água.",
+  "inputs": ["Identificação do lead", "Contexto de prospecção"],
+  "outputs": ["Relatório Onboarding Express", "Briefing Técnico Completo", "Proposta Comercial"],
+  "tools_or_apis": ["Kommo API", "Link d'Água Generator"],
+  "rbac_context": "Trata informações com sigilo e conformidade LGPD."
+}

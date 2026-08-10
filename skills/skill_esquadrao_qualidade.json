@@ -1,0 +1,9 @@
+{
+  "name": "Skill Esquadrão de Qualidade",
+  "description": "Audita código, prompts, RLS, LGPD e higieniza logs de testes manuais.",
+  "purpose": "Garantir a excelência, segurança e conformidade de todos os artefatos antes do deploy.",
+  "inputs": ["Código", "Prompts", "PRDs", "Logs brutos"],
+  "outputs": ["Relatórios de QA", "Dossiês de Testes", "Selo de Aprovação"],
+  "tools_or_apis": ["Code Review Tools", "Sanitizer Scripts"],
+  "rbac_context": "Auditoria estrita sem retenção de PII ou vazamento de dados."
+}

@@ -1,49 +1,81 @@
-# Hub OS: O Sistema Operacional da Agência AI Native Encontro d'Água
+# 🌿 Hub OS: O Sistema Operacional da Agência AI Native Encontro d'Água
 
 ## 🚀 Visão: Reflorestar o Digital com Inteligência Artificial
 
-O Hub OS é a fundação tecnológica do Encontro d'Água, transformando-o em uma agência verdadeiramente AI Native e um Hub Digital. Nossa missão é clara: **"Reflorestar o Digital"**. Acreditamos que a inteligência artificial, quando arquitetada com propósito e modularidade, pode criar ecossistemas digitais mais sustentáveis, eficientes e humanos. O Hub OS é a materialização dessa visão, orquestrando a inteligência para gerar valor real e escalável.
-
-## 🌳 Ecossistema Hub OS: A CEO Digital e Seus Especialistas
-
-A arquitetura do Hub OS é inspirada no conceito de uma **"CEO Digital" (Orquestradora)** que gerencia uma equipe de **"Skills/Especialistas"**. Esta lógica de delegação de tarefas permite uma operação altamente eficiente, onde a CEO Digital (o próprio Hub OS) coordena e distribui as demandas para os Especialistas mais adequados, garantindo que cada tarefa seja executada com precisão e inteligência.
-
-### Lógica de Orquestração: CEO Digital -> Especialistas
-
-O Hub OS atua como a inteligência central que:
-
-1.  **Interpreta a Intenção:** Recebe e compreende as necessidades e objetivos do usuário ou de outros sistemas.
-2.  **Delega a Tarefa:** Identifica a Skill/Especialista mais competente para a execução da tarefa, considerando o contexto e os requisitos.
-3.  **Orquestra o Fluxo:** Gerencia o encadeamento das Skills, passando informações entre elas e garantindo a sequência lógica das operações.
-4.  **Valida e Entrega:** Monitora a execução, valida os resultados e entrega a solução final.
-
-### Natureza Multiplataforma (O Plugin)
-
-O Hub OS não é uma aplicação monolítica, mas sim uma **inteligência modular ("plugin")** projetada para operar em diversas frentes, adaptando-se ao contexto de uso:
-
-*   **Localmente (CEO):** Atuando via agentes como Manus AI ou Claude Desktop, o Hub OS gerencia tarefas pessoais e estratégicas, como organização do Google Drive, gestão de e-mails (Gmail), automação de GitHub e postagens no Instagram pessoal (a semente do projeto).
-*   **No CRM (SaaS):** Integrado à seção "Prompt Lab" do CRM (Provadágua/Kommo), o Hub OS permite que os clientes do Encontro d'Água acessem e utilizem esses "Especialistas" diretamente, democratizando o acesso à inteligência artificial.
-
-## 🛠️ Nossos Especialistas (As Skills Reais do Hub OS)
-
-O Hub OS orquestra um conjunto crescente de Skills especializadas, cada uma com um domínio de expertise específico:
-
-*   **Skill Engenharia (Repo/Docs):** Responsável por interagir com repositórios de código (ex: Vercel, GitHub), atualizar documentações técnicas (DEVLOG, README) e monitorar a saúde do código e da infraestrutura.
-*   **Skill Conhecimento (Drive/Data):** Especializada em extração, síntese e organização segura de informações e arquivos do Google Drive e Google Docs, garantindo acesso rápido e inteligente ao conhecimento.
-*   **Skill CRM & Vendas:** Focada na atualização e interação com leads e clientes dentro do Provadágua CRM e, futuramente, no Kommo, otimizando processos de vendas e relacionamento.
-*   **Skill Tech Influencer (Social):** Analisa vitórias técnicas e projetos do Hub, rascunhando posts e threads para o Instagram pessoal, narrando a jornada de "Reflorestar o Digital" e construindo autoridade.
-*   **Skill Prompt Lab:** Capacidade de empacotar o conhecimento e a lógica de outras Skills em prompts modulares e reutilizáveis, disponibilizando-os para clientes no SaaS.
-
-## 🔒 Diretrizes de Segurança (Master Professional)
-
-A segurança e a privacidade dos dados são pilares inegociáveis do Hub OS. Adotamos protocolos rigorosos para garantir a integridade e a confidencialidade das informações:
-
-*   **Zero Hardcoding de Chaves/Tokens:** Todas as credenciais e informações sensíveis são gerenciadas através de variáveis de ambiente isoladas (`.env`), garantindo que nunca sejam hardcoded no código-fonte.
-*   **RBAC (Role-Based Access Control):** Implementamos um controle de acesso baseado em papéis, onde cada Especialista (Skill) possui permissões estritamente necessárias para sua função. Especialistas não compartilham contexto sensível entre si (ex: a Skill Influencer não tem acesso direto a dados confidenciais da Skill CRM).
-*   **Sanitização Estrita de Dados:** Todos os dados são submetidos a um processo rigoroso de sanitização antes do processamento, garantindo a privacidade dos dados e prevenindo vulnerabilidades.
+O **Hub OS** é a fundação tecnológica do **Encontro d'Água Hub**, transformando-o em uma agência verdadeiramente AI Native e um ecossistema digital sustentável. Nossa missão é: **"Reflorestar o Digital"**. Acreditamos que a inteligência artificial, quando arquitetada com propósito, responsabilidade e modularidade, pode criar ecossistemas digitais mais eficientes, humanos e acessíveis para empreendedores e comunidades.
 
 ---
 
-## Próximos Passos
+## 👤 Bio — Lídi Moura (Founder & CEO Digital)
 
-Este `README.md` serve como o manifesto do Hub OS. Os próximos passos incluem a criação dos arquivos de configuração para cada Skill, a implementação da lógica de orquestração e a integração contínua de novas funcionalidades, sempre seguindo as diretrizes de modularidade, segurança e escalabilidade.
+### Versão Curta
+Analista de Dados com foco em automação e IA, atuando com impacto social e sustentabilidade. Participante do ONE IA FOR TECH (G10) e Tech Advanced G9, OCI Foundations Associate, parceira Kommo certificada, em preparação para certificações Power BI e Databricks.
+
+### Versão Completa
+Sou Analista de Dados com foco em automação e inteligência artificial, atuando com impacto social e sustentabilidade. Estou no programa **ONE IA FOR TECH (G10)** — Oracle Next Education + Alura — e concluindo o **Tech Advanced G9**, com habilidades em OCI (Oracle Cloud Infrastructure), Autonomous Database, APEX, IA generativa, LangChain, RAG, agentes inteligentes, MySQL, Supabase, ETL, EDA e visualização de dados. Certificada **OCI Foundations Associate** e **Parceira Kommo Certificada**.
+
+Participei do hackathon **G9-BR-TEAM-12** com projeto colaborativo de dados e IA. Ofereço serviços de pesquisa de satisfação com dashboard interativo, mini sites, automação de marketing e consultoria em dados. Estou em preparação para certificações **Power BI** e **Databricks**.
+
+Meu objetivo é ajudar negócios a tomar decisões mais inteligentes, ágeis e sustentáveis.
+
+---
+
+## 🌳 Ecossistema Hub OS: Orquestração & Skills
+
+A arquitetura do Hub OS opera sob a lógica de delegação assíncrona: a **CEO Digital (NEXUS/Orquestradora)** coordena uma equipe especializada de **15 Skills Mestras**, garantindo que cada demanda seja interpretada, especificada, executada e auditada com precisão.
+
+### Natureza Multiplataforma (O Plugin Agnóstico)
+O Hub OS é uma **inteligência modular ("plugin")** projetada para operar em diversas plataformas:
+* **Localmente & IDEs:** Operando via assistentes nativos no Antigravity IDE, Manus AI ou Claude Desktop para automação de código, arquivos e gestão.
+* **No CRM & SaaS:** Integrado à seção *Prompt Lab* dos CRMs Provadágua e Kommo, democratizando o acesso às Skills especialistas para os clientes da agência.
+
+### 🛠️ As 15 Skills Mestras do Hub OS
+1. **NEXUS (Orquestrador & Guardião do Foco):** Córtex pré-frontal externo, priorização e gestão do cofre de ideias.
+2. **Arquiteto de Requisitos:** Converte visões em BRDs técnicos universais B2B em 6 etapas.
+3. **Arquiteto de Agentes & Prompts:** Modela System Prompts e personas da Equipe 10K (Amazô, Yara, Precy, Jury).
+4. **Arquiteto Web & UI/UX:** Design TDAH-Friendly, mobile-first e identidade visual Roxo Açaí + Glassmorphism.
+5. **Desenvolvedor Fullstack:** Executor técnico em React, Vite, Tailwind CSS, Python (Data Science) e Supabase.
+6. **Analisador Estratégico de Leads:** Diagnóstico de marca e geração do Kit de Ataque comercial.
+7. **Esquadrão de Qualidade (QA):** Auditoria de código, testes de segurança, validação RLS/LGPD e higienização de logs.
+8. **Pesquisador P&D:** Exploration tech e avaliação de ferramentas em 7 passos.
+9. **Documentador & Onboarding:** Gestão de conhecimento, DEVLOGs e manuais de cliente.
+10. **CRM & Vendas:** Automação de funis comercial e pós-venda no Provadágua/Kommo.
+11. **Tech Influencer:** Copywriting e storytelling técnico no formato *Building in Public*.
+12. **Conhecimento (Drive/Data):** Extração e organização de arquivos do Google Drive e Docs.
+13. **Prompt Lab:** Empacotador de prompts modulares para uso dos clientes no SaaS.
+14. **Onboarding Express:** Acelerador de propostas e briefings técnicos do Link d'Água.
+15. **Engenharia (Repo/Docs):** Monitoramento de saúde de repositórios, CI/CD e infraestrutura.
+
+---
+
+## 📦 Serviços & Produtos do Hub OS
+
+* **Pesquisa de Satisfação com Dashboard Interativo:** Coleta de feedback e visualização em tempo real (NPS/Showcase).
+* **Link d'Água (Smart Cards & Landing Pages):** Cartões digitais interativos e QR Codes dinâmicos multi-idioma.
+* **Metodologia Prova d'Água:** Diagnóstico visual e dashboards oferecidos como diferencial de prospecção.
+* **Mini Sites & Automação de Marketing:** Desenvolvimento rápido integrado a fluxos automatizados no Kommo.
+* **Consultoria em Dados & IA:** Projetos de ETL/EDA, modelos preditivos e assistentes RAG sob medida.
+
+---
+
+## 🛡️ Diretrizes de Segurança (Master Professional)
+
+* **Zero Hardcoding:** Credenciais gerenciadas exclusivamente via variáveis de ambiente (`.env`).
+* **RBAC & RLS:** Permissões estritas por papel e isolamento multi-tenant no Supabase.
+* **Sanitização de Dados & LGPD:** Proteção de dados pessoais e anonimização em logs.
+* **Aprovação Humana Obrigatória:** Deploys e postagens requerem validação da CEO.
+
+---
+
+## 🔗 Links Oficiais
+
+- 💻 [GitHub](https://github.com/lidimoura)
+- 💼 [LinkedIn](https://www.linkedin.com/in/lidimoura/)
+- 🌐 [Portfólio Hub/Serviços](https://link.encontrodagua.com/r/portifolio-lidimoura)
+- 🏆 [Hackathon G9 (OCI/IA)](https://github.com/No-Country-simulation/G9-BR-TEAM-12/)
+- 📊 [Showcase Pesquisa de Satisfação](https://github.com/lidimoura/pesquisa-satisfacao-showcase)
+- 📲 [Link d'Água Pessoal (PT)](https://link.encontrodagua.com/r/lidi-moura)
+- 📲 [Link d'Água Pessoal (EN)](https://link.encontrodagua.com/r/lidi-moura-en)
+
+---
+*Hub OS — Reflorestando o Digital.*

@@ -1,0 +1,9 @@
+{
+  "name": "Skill Arquiteto Web & Produto UI/UX",
+  "description": "Cria PRDs técnicos para interfaces web com design mobile-first, TDAH-Friendly e Roxo Açaí + Glassmorphism.",
+  "purpose": "Planejar arquitetura de informação e wireframes de alta conversão.",
+  "inputs": ["Documento BRD", "Insights do Analisador de Leads"],
+  "outputs": ["PRD de UI/UX com wireframes descritivos"],
+  "tools_or_apis": ["Figma / Wireframing descritivo", "Google Fonts"],
+  "rbac_context": "Design com Privacy by Design e formulários transparentes LGPD."
+}

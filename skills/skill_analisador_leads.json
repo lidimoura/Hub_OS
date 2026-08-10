@@ -1,0 +1,9 @@
+{
+  "name": "Skill Analisador Estratégico de Leads",
+  "description": "Analisa perfis e marcas de prospects, gera ativos visuais e entrega Kit de Ataque comercial.",
+  "purpose": "Acelerar qualificação e prospecção de clientes com a metodologia Prova d'Água.",
+  "inputs": ["URL de site/redes sociais", "Prints de cartões/logos", "Origem do lead"],
+  "outputs": ["Kit de Ataque (Markdown)", "Proposta Comercial", "Ativos visuais gerados"],
+  "tools_or_apis": ["Kommo API", "Supabase API", "Ferramentas de geração de imagem"],
+  "rbac_context": "Acesso a dados públicos de leads. Respeita LGPD e não retém PII sensíveis."
+}

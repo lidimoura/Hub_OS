@@ -1,0 +1,9 @@
+{
+  "name": "Skill Arquiteto de Requisitos",
+  "description": "Traduz visões de negócios da CEO em BRDs técnicos universais em 6 etapas.",
+  "purpose": "Estruturar especificações funcionais e não-funcionais antes do desenvolvimento.",
+  "inputs": ["Escopo e prioridades do NEXUS"],
+  "outputs": ["Documento BRD completo em 6 etapas"],
+  "tools_or_apis": ["Markdown", "OCI APEX / Autonomous DB Specs"],
+  "rbac_context": "Especificações técnicas puras sem hardcoding de segredos."
+}

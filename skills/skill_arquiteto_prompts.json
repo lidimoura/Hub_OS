@@ -1,0 +1,9 @@
+{
+  "name": "Skill Arquiteto de Agentes & Prompts",
+  "description": "Cria e calibra personas de IA e system prompts blindados para GPTmaker, Kommo e Meta AI Studio.",
+  "purpose": "Modelar o comportamento estrutural de IAs com engenharia de prompts avançada e blindagem.",
+  "inputs": ["Documento BRD", "Plataforma alvo"],
+  "outputs": ["System Prompt minificado (Cérebro)", "Biblioteca TXT", "Referências de API"],
+  "tools_or_apis": ["GPTmaker API", "Kommo Prompt Lab", "Meta AI Studio"],
+  "rbac_context": "Prompts desenvolvidos sem exposição de credenciais ou PII de clientes."
+}

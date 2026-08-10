@@ -1,0 +1,9 @@
+{
+  "name": "Skill Documentador & Onboarding",
+  "description": "Cria documentações didáticas, DEVLOGs, READMEs e manuais de usuário para clientes e membros.",
+  "purpose": "Gerenciar o conhecimento e mitigar a curva de aprendizado.",
+  "inputs": ["Artefatos aprovados", "Guias técnicos", "BRDs finalizados"],
+  "outputs": ["Manuais de Usuário", "DEVLOGs", "Base de Conhecimento"],
+  "tools_or_apis": ["Markdown", "GitHub Wiki / Docs"],
+  "rbac_context": "Documentação limpa sem hardcoding de segredos."
+}

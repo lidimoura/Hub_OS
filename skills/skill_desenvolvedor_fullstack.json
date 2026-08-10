@@ -1,0 +1,9 @@
+{
+  "name": "Skill Desenvolvedor Fullstack",
+  "description": "Traduz PRDs e BRDs em código limpo (React, Vite, Tailwind CSS, Python Data Science, Supabase SQL).",
+  "purpose": "Construir aplicações web, dashboards de BI e pipelines de dados seguros.",
+  "inputs": ["PRD do Arquiteto Web", "Relatórios do QA"],
+  "outputs": ["Blocos de código limpo por arquivo"],
+  "tools_or_apis": ["React", "Vite", "Tailwind CSS", "Python", "Supabase PostgreSQL", "Vercel"],
+  "rbac_context": "Zero hardcoding. RLS estrito em todas as tabelas Supabase."
+}

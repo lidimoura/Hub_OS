@@ -1,0 +1,9 @@
+{
+  "name": "Skill Pesquisador P&D",
+  "description": "Explora novas tecnologias e entrega guias de avaliação em 7 seções mandatórias.",
+  "purpose": "Pesquisar tendências e validar a viabilidade técnica de novas ferramentas.",
+  "inputs": ["Solicitação de pesquisa", "Termos/Conceitos"],
+  "outputs": ["Guia Técnico em 7 Seções Mandatórias"],
+  "tools_or_apis": ["Web Search", "Benchmark Tools"],
+  "rbac_context": "Pesquisa técnica sem coleta de PII."
+}
