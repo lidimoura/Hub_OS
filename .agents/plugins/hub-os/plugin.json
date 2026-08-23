@@ -1,0 +1,22 @@
+{
+  "name": "hub-os",
+  "version": "1.0.0",
+  "description": "Hub OS — O Sistema Operacional da Agência AI Native Encontro d'Água (Lídi Moura). Orquestração com NEXUS, 15 Skills Mestras, Metodologia Prova d'Água e missão de Reflorestar o Digital com Inteligência Artificial.",
+  "author": {
+    "name": "Lídi Moura",
+    "url": "https://github.com/lidimoura"
+  },
+  "repository": "https://github.com/lidimoura/Hub_OS",
+  "license": "MIT",
+  "keywords": [
+    "hub-os",
+    "encontro-dagua",
+    "ai-native",
+    "nexus",
+    "kommo",
+    "provadagua",
+    "supabase",
+    "reflorestar-o-digital",
+    "lidi-moura"
+  ]
+}

@@ -48,6 +48,19 @@ O Hub OS é uma **inteligência modular ("plugin")** projetada para operar em di
 
 ---
 
+## 🔌 Instalação & Ativação no Antigravity IDE / CLI
+
+O Hub OS opera como plugin nativo no Antigravity com suporte a multi-máquinas (PC Gamer e Notebook):
+
+* **No Repositório (Automático):** Ao clonar ou abrir este repositório, o Antigravity carrega as 15 Skills e regras automaticamente via `.agents/plugins.json`.
+* **Instalação Global (para usar em todos os projetos da máquina):**
+  Execute o script instalador no PowerShell:
+  ```powershell
+  .\instalar_plugin_global.ps1
+  ```
+
+---
+
 ## 📦 Serviços & Produtos do Hub OS
 
 * **Pesquisa de Satisfação com Dashboard Interativo:** Coleta de feedback e visualização em tempo real (NPS/Showcase).
