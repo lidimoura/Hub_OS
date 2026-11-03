@@ -73,3 +73,20 @@ flowchart LR
 ### 🛡️ Conformidade e Segurança
 * Nenhum segredo ou chave privada foi incluído nos manifestos ou documentações.
 * Compatibilidade 100% preservada com futuras atualizações do Antigravity.
+
+
+## 2026-11-03 — Matriz oficial do Hub OS e relação com o NEXUS
+
+**Contexto:** a CEO Lídi Moura validou a necessidade de diferenciar o Hub OS público, o núcleo privado NEXUS e a camada especializada hub-os-guIA para evitar conflitos entre Claude, Antigravity e Manus.
+
+**Decisão:** o repositório `Hub_OS` permanece como camada pública/plugin portátil e demonstrável, com as Skills do ecossistema e instruções de portabilidade. A autoridade operacional e arquitetural é o repositório privado `hub-os-nexus`, usado pelo plugin `hub-os-nexus` no Claude e no Antigravity.
+
+O `hub-os-guIA` é um módulo complementar do NEXUS para mentoria técnica, descoberta comercial, roteamento econômico, atualização de ferramentas, projetos privados, STAR, métricas e portfólio. A fonte pública `amazo-guia-g10` permanece a referência de negócio da Amazô; o guIA mantém apenas snapshot público identificado.
+
+**Regra contra conflitos:** nenhuma camada deve substituir ou sobrescrever outra automaticamente. Em caso de divergência, informar os documentos, versões, datas e decisão necessária da CEO.
+
+**Regra de quota:** antes de criar uma nova skill global, verificar se a necessidade pode ser atendida por uma skill existente, modo, template, documento ou instrução temporária. Projetos específicos devem usar repositórios privados próprios e não aumentar o catálogo global sem necessidade.
+
+**Segurança:** manter LGPD, RBAC, RLS, zero hardcoding, anonimização e aprovação humana para publicações, deploys e mudanças de alto impacto.
+
+**Estado de referência verificado em 2026-11-03:** `Hub_OS` commit `78ef8303a3197367c57a50e0a8ae37d57ab1bc4a`; `hub-os-nexus` commit `47c0c9c1995e09bab0069907f6fdfbbff27ba527`; `hub-os-guIA` commit `f6eb821`; Amazô pública commit `e22ff9b601762c04f3a475bfb7837a46b9c95af4`.

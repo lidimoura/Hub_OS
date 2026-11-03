@@ -80,6 +80,18 @@ O Hub OS opera como plugin nativo no Antigravity com suporte a multi-máquinas (
 
 ---
 
+## 🧭 Matriz oficial de camadas e ambientes
+
+O repositório público `Hub_OS` é a camada portátil e demonstrável das Skills do ecossistema. A autoridade operacional e arquitetural é o repositório privado `hub-os-nexus`, usado pelo plugin NEXUS no Claude e no Antigravity e pelas instruções nativas do Manus. O `hub-os-guIA` é um módulo especializado do NEXUS para mentoria técnica, descoberta comercial, atualização de stack, projetos privados, STAR, métricas e portfólio.
+
+O mesmo arranjo pode ser testado no Manus AI, Claude e Antigravity para criar repositórios privados de projetos de clientes do Hub e projetos educacionais, como o Challenge ONE G11. Os dados, requisitos, notebooks e métricas de cada cliente ou desafio devem permanecer em seu próprio projeto, sem misturar cliente, estudo e fonte comercial.
+
+Em caso de conflito entre camadas, a CEO Lídi Moura deve ser consultada. Antes de criar uma nova Skill global, verificar se uma Skill existente, modo, template, documento de referência ou instrução temporária resolve a necessidade.
+
+Estado de referência registrado em 2026-11-03: `hub-os-nexus` como núcleo privado; `Hub_OS` como camada pública/plugin; `hub-os-guIA` como módulo complementar; `amazo-guia-g10` como fonte pública de negócio da Amazô.
+
+---
+
 ## 🔗 Links Oficiais
 
 - 💻 [GitHub](https://github.com/lidimoura)
